@@ -7,9 +7,9 @@ public class OrdemItem {
     private Produto produto;
 
     public OrdemItem(int quantidade, double valor, Produto produto) {
-        this.quantidade = this.quantidade;
-        this.valor = this.valor;
-        this.produto = this.produto;
+        this.quantidade = quantidade;
+        this.valor = valor;
+        this.produto = produto;
     }
 
     public Integer getQuantidade() {
